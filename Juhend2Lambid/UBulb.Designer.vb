@@ -41,8 +41,8 @@ Partial Class UBulb
         '
         Me.imageLoend.ImageStream = CType(resources.GetObject("imageLoend.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.imageLoend.TransparentColor = System.Drawing.Color.Transparent
-        Me.imageLoend.Images.SetKeyName(0, "lamp off.jpg")
-        Me.imageLoend.Images.SetKeyName(1, "lamp on.jpg")
+        Me.imageLoend.Images.SetKeyName(0, "lamp off.png")
+        Me.imageLoend.Images.SetKeyName(1, "lamp on.png")
         '
         'UBulb
         '

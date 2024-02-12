@@ -4,7 +4,6 @@
         pbLamp.Image = imageLoend.Images(intLamp)
     End Sub
 
-
     'Avalik liidesmeetod 
     Public Sub setState(ByVal strState As String)
         Select Case strState
@@ -14,4 +13,5 @@
                 Me.selectState(1)
         End Select
     End Sub
+
 End Class
