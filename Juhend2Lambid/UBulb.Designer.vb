@@ -31,7 +31,7 @@ Partial Class UBulb
         '
         'pbLamp
         '
-        Me.pbLamp.Location = New System.Drawing.Point(331, 109)
+        Me.pbLamp.Location = New System.Drawing.Point(96, 58)
         Me.pbLamp.Name = "pbLamp"
         Me.pbLamp.Size = New System.Drawing.Size(138, 201)
         Me.pbLamp.TabIndex = 0
