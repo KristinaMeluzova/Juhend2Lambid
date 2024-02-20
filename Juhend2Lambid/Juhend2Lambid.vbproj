@@ -46,6 +46,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Juhen2Lüliti">
+      <HintPath>..\..\Juhen2Lüliti\Juhen2Lüliti\bin\Debug\Juhen2Lüliti.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />

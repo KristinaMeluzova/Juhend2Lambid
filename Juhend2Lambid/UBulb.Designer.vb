@@ -26,6 +26,8 @@ Partial Class UBulb
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UBulb))
         Me.pbLamp = New System.Windows.Forms.PictureBox()
         Me.imageLoend = New System.Windows.Forms.ImageList(Me.components)
+        Me.USwitch1 = New Juhen2Lüliti.USwitch()
+        Me.switchTimerControl = New System.Windows.Forms.Timer(Me.components)
         CType(Me.pbLamp, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -44,10 +46,18 @@ Partial Class UBulb
         Me.imageLoend.Images.SetKeyName(0, "lamp off.png")
         Me.imageLoend.Images.SetKeyName(1, "lamp on.png")
         '
+        'USwitch1
+        '
+        Me.USwitch1.Location = New System.Drawing.Point(261, 20)
+        Me.USwitch1.Name = "USwitch1"
+        Me.USwitch1.Size = New System.Drawing.Size(510, 258)
+        Me.USwitch1.TabIndex = 1
+        '
         'UBulb
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.USwitch1)
         Me.Controls.Add(Me.pbLamp)
         Me.Name = "UBulb"
         Me.Size = New System.Drawing.Size(800, 450)
@@ -58,4 +68,6 @@ Partial Class UBulb
 
     Friend WithEvents pbLamp As PictureBox
     Friend WithEvents imageLoend As ImageList
+    Friend WithEvents USwitch1 As Juhen2Lüliti.USwitch
+    Friend WithEvents switchTimerControl As Timer
 End Class
